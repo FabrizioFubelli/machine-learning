@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 
 """
-1)
+Machine Learning - Hello World
+
+1) Analyze input data
+2) Split features and target
+3) Split learning data and test data
+4) Execute learning with learning data
+5) Predict result of learning data and test data
+6) Compare the accuracy scores between learning and test data
 """
 
 from sklearn import datasets
