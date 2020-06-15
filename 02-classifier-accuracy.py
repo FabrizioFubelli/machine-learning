@@ -11,7 +11,7 @@ https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
 
 
 How to chose the right algorithm?
-By measure accuracy of classifier!
+By measuring accuracy of classifier!
 """
 
 from sklearn.metrics import accuracy_score, ConfusionMatrixDisplay
