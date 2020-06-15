@@ -65,3 +65,5 @@ c_matrix_display = ConfusionMatrixDisplay(
 )
 c_matrix_display.plot(include_values=True)
 plt.show()
+
+# The diagonal (\) row (of right answers) divided by sum of all cells = accuracy
