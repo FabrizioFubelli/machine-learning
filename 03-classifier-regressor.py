@@ -11,7 +11,7 @@ https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
 
 
 How to chose the right algorithm?
-By measure mean squared error of regressor!
+By measuring mean squared error of regressor!
 """
 
 import numpy as np
