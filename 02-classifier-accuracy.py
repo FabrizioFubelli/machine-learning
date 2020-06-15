@@ -14,30 +14,30 @@ How to chose the right algorithm?
 By measure accuracy of classifier!
 """
 
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, ConfusionMatrixDisplay
 from sklearn.metrics import confusion_matrix
 
 import matplotlib.pyplot as plt
 
 # We have right and predicted targets
 y_true = [  # Expected outputs
-    'basket',
     'rugby',
     'rugby',
     'calcio',
     'basket',
     'basket',
-    'calcio'
+    'calcio',
+    'basket'
 ]
 
 y_pred = [  # Model results
-    'basket',
     'rugby',
     'rugby',
     'basket',
     'basket',
     'rugby',
-    'calcio'
+    'calcio',
+    'basket'
 ]
 
 
@@ -55,4 +55,13 @@ print('Accuracy', str(accuracy))
 # A good tool to check the results, is the "Confusion Matrix"
 
 c_matrix = confusion_matrix(y_true, y_pred)
+c_matrix_display = ConfusionMatrixDisplay(
+    c_matrix,
+    display_labels=[    # Alphabetically sort
+        'basket',
+        'calcio',
+        'rugby'
+    ]
+)
+c_matrix_display.plot(include_values=True)
 plt.show()
