@@ -6,12 +6,12 @@ Machine Learning - Mean squared error, R-squared, Residual Plot
 Video:
 https://www.youtube.com/watch?v=CbESY3v80zg
 
-Classifiers:
+Regressors:
 https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
 
 
 How to chose the right algorithm?
-By measure accuracy of classifier!
+By measure mean squared error of regressor!
 """
 
 import numpy as np
