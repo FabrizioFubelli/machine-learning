@@ -3,6 +3,9 @@
 """
 Machine Learning - Hello World
 
+Video:
+https://www.youtube.com/watch?v=hSZH6saoLBY
+
 1) Analyze input data
 2) Split features and target
 3) Split learning data and test data

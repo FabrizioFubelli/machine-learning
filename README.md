@@ -6,4 +6,10 @@ Studying Machine Learning by watching the following channel:
 
 ### Python Library
 
-In this repository will be used the Python Library ["scikit-learn"](scikit-learn).
+In this repository will be used the Python Library ["scikit-learn"](https://scikit-learn.org).
+
+### How To
+
+```bash
+sudo pip3 install scikit-learn
+```
