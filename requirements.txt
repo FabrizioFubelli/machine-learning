@@ -2,3 +2,4 @@ scikit-plot
 numpy
 sklearn
 matplotlib
+pandas
