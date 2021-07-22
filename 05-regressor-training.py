@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Machine Learning - Train a predictive model
+Machine Learning - Train a predictive model with regression
 
 Video:
 https://youtu.be/7YDWaTKtCdI
@@ -23,16 +23,16 @@ dataset = load_boston()
 
 # X contains the features
 X = dataset['data']
-# y contains the target we want
+# y contains the target we want to find
 y = dataset['target']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y)
 
 model = LinearRegression()
-model.fit(X_train, y_train)     # Train model from data
+model.fit(X_train, y_train)         # Train model from data
 
-p_train = model.predict(X_train)     # Predict X_train after training
-p_test = model.predict(X_test)       # Predict X_test after training
+p_train = model.predict(X_train)    # Predict X_train after training
+p_test = model.predict(X_test)      # Predict X_test after training
 
 mae_train = mean_absolute_error(y_train, p_train)
 mae_test = mean_absolute_error(y_test, p_test)
