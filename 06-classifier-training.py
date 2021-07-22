@@ -31,5 +31,5 @@ p_test = model.predict(X_test)      # Predict X_test after training
 
 acc_train = accuracy_score(y_train, p_train)
 acc_test = accuracy_score(y_test, p_test)
-print(f'Accuracy train {acc_train}')
-print(f'Accuracy test {acc_test}')
+print(f'Accuracy train: {acc_train}')
+print(f'Accuracy test: {acc_test}')
