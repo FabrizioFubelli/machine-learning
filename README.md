@@ -11,5 +11,5 @@ In this repository is used the Python Library ["scikit-learn"](https://scikit-le
 ### How To
 
 ```bash
-sudo pip3 install scikit-learn
+sudo pip3 install -r requirements.txt
 ```
