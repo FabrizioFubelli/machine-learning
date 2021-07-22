@@ -21,7 +21,7 @@ print(df.head())
 X = df['text']
 y = df['tag']
 
-vectorizer = CountVectorizer()
+vectorizer = CountVectorizer(ngram_range=(1, 2))
 
 X = vectorizer.fit_transform(X)
 # X = vectorizer.inverse_transform(X)
