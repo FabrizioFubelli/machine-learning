@@ -5,9 +5,6 @@ Machine Learning - Measure Classifier Accuracy
 
 Video:
 https://youtu.be/DJeh_CJpvAw
-
-KNeighborsClassifier:
-https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
 """
 
 import numpy as np
