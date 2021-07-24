@@ -5,13 +5,9 @@ Machine Learning - Measure Regression Accuracy
 
 Video:
 https://youtu.be/r9bLO6b7bZg
-
-KNeighborsClassifier:
-https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
 """
 
 import numpy as np
-import scikitplot as skplt
 import matplotlib.pyplot as plt
 import seaborn as sns
 
